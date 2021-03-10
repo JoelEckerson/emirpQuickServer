@@ -8,7 +8,7 @@ const port = 5000;
 let devices = [ 'android phone', 'fire tablet' ];
 // spin up server
 app.listen( port, ()=>{
-    console.log( 'server is up' );
+    console.log( 'server is up', port );
 })
 // our first GET route
 app.get( '/devices', ( req, res )=>{
